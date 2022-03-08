@@ -14,6 +14,6 @@
 <img src="https://user-images.githubusercontent.com/29446797/157146736-85275658-0eed-42f4-bd07-6b4021fd1f94.png" height="487" width="274"> <img src="https://user-images.githubusercontent.com/29446797/157146869-ab0be8c4-6b73-4b87-8d50-44881357e2ab.png" height="487" width="274">  
 <img src="https://user-images.githubusercontent.com/29446797/157146944-34414296-86de-456d-8d07-b2dd504ed175.png" height="487" width="274">
 ## Person Removed
-<img src="https://user-images.githubusercontent.com/29446797/157149418-ec987978-de2a-4b5d-84fa-7624303ba3db.png" height="487" width="274"> <img src="https://user-images.githubusercontent.com/29446797/157149490-f8f2636f-cccf-4b04-9486-8ef4ce9c5820.png" height="487" width="274">
-<img src="https://user-images.githubusercontent.com/29446797/157149557-ac138fef-afc4-4add-b1c9-3bcd8d99e564.png" height="487" width="274">
+<img src="https://user-images.githubusercontent.com/29446797/157149418-ec987978-de2a-4b5d-84fa-7624303ba3db.png" height="274" width="487"> <img src="https://user-images.githubusercontent.com/29446797/157149490-f8f2636f-cccf-4b04-9486-8ef4ce9c5820.png" height="274" width="487">
+<img src="https://user-images.githubusercontent.com/29446797/157149557-ac138fef-afc4-4add-b1c9-3bcd8d99e564.png" height="247" width="487">
 
