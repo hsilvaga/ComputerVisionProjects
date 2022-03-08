@@ -2,8 +2,8 @@
 # Objective: Implement Region-Filling [Paper](https://www.irisa.fr/vista/Papers/2004_ip_criminisi.pdf) and Obtain Similar Results 
 
 # Walkthrough of Implemented Algorithm:
-&nbsp;&nbsp;1) This algorithm takes in three inputs
-- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1: A color-image | 2: A mask of the object to be removed | 3: A window size which determines the size of the infill region
+&nbsp;&nbsp;This algorithm takes in three inputs
+- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1: A color-image | 2: A mask of the object to be removed | 3: A window size which determines the size of the infill region  
 &nbsp;&nbsp;1) Compute Patch Priorities of Fill-Front  
 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This is a calculation of which point, and its window, will be filled in first.  
 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This calculation ensures that the algorithm fills in 1) the pixels from outer-towards-inner. And that 2) pixels where the image has the strongest edges fill the image first; this ensures that lines going behind the object are continued through as the object is filled in.
