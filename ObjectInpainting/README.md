@@ -13,8 +13,9 @@
 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This portion of the algorithm simply selects the most similar window-region from the image to fill-in the object in question.
 - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This was implemented using OpenCV's matchTemplate() to find the most similar region.
 # Results:
-## Cone Removed
-<img src="https://user-images.githubusercontent.com/29446797/157146736-85275658-0eed-42f4-bd07-6b4021fd1f94.png" height="487" width="274"> <img src="https://user-images.githubusercontent.com/29446797/157146869-ab0be8c4-6b73-4b87-8d50-44881357e2ab.png" height="487" width="274">  
+### From left-to-right: Input image, masked region of object to be removed, output with removed object
+## Cone Removed 
+<img src="https://user-images.githubusercontent.com/29446797/157146736-85275658-0eed-42f4-bd07-6b4021fd1f94.png" height="487" width="274"> <img src="https://user-images.githubusercontent.com/29446797/157146869-ab0be8c4-6b73-4b87-8d50-44881357e2ab.png" height="487" width="274">
 <img src="https://user-images.githubusercontent.com/29446797/157146944-34414296-86de-456d-8d07-b2dd504ed175.png" height="487" width="274">
 ## Person Removed
 <img src="https://user-images.githubusercontent.com/29446797/157149418-ec987978-de2a-4b5d-84fa-7624303ba3db.png" height="274" width="487"> <img src="https://user-images.githubusercontent.com/29446797/157149490-f8f2636f-cccf-4b04-9486-8ef4ce9c5820.png" height="274" width="487">
