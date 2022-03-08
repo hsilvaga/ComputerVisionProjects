@@ -3,8 +3,12 @@
 
 # Walkthrough of Implemented Algorithm:
 &nbsp;&nbsp;1) Compute Patch Priorities of Fill-Front  
-- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sd
+- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This is a calculation of which point, and its window, will be filled in first.  
+- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This calculation ensures that the algorithm fills in 1) the pixels from outer-towards-inner. And that 2) pixels where the image has the strongest edges fill the image first; this ensures that lines going behind the object are continued through as the object is filled in.
+- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The priority calculations are the main novelty of the algorithm. 
 &nbsp;&nbsp;2) Perform Inpainting on Highest Priority Point on Fill-Front  
+- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This portion of the algorithm simply selects the most similar window-region from the image to fill-in the object in question.
+- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This was implemented using OpenCV's matchTemplate() to find the most similar region.
 
-<img src="https://user-images.githubusercontent.com/29446797/157146736-85275658-0eed-42f4-bd07-6b4021fd1f94.png" height="487" width="274"> <img src="https://user-images.githubusercontent.com/29446797/157146869-ab0be8c4-6b73-4b87-8d50-44881357e2ab.png" height="487" width="274">
+<img src="https://user-images.githubusercontent.com/29446797/157146736-85275658-0eed-42f4-bd07-6b4021fd1f94.png" height="487" width="274"> <img src="https://user-images.githubusercontent.com/29446797/157146869-ab0be8c4-6b73-4b87-8d50-44881357e2ab.png" height="487" width="274">  
 <img src="https://user-images.githubusercontent.com/29446797/157146944-34414296-86de-456d-8d07-b2dd504ed175.png" height="487" width="274">
