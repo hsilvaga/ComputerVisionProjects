@@ -10,7 +10,7 @@
 <img src="https://user-images.githubusercontent.com/29446797/167309158-949b24bc-2e22-47fc-a688-d06bbb262538.png"> <img src="https://user-images.githubusercontent.com/29446797/167309161-c2e9381e-4ef2-46fc-8ca0-6a3af97f615e.png">  
 &nbsp;&nbsp;3) These graphs represent the accuracy at each epoch for the network trained from scratch (left) and the network trained with pre-trained weights (right).
 
-![ezgif com-gif-maker](https://user-images.githubusercontent.com/29446797/167310647-4d5a2f43-42e4-49ea-a100-8b9020bef618.gif)
+![vgg](https://user-images.githubusercontent.com/29446797/167310676-9744a36d-e80d-4262-abf4-cf41248f6cc6.gif) [Full-Res Video][]
 
 
 ## Method 2: Detection and Classification performed by YOLO (You Only Look Once)
