@@ -21,7 +21,11 @@
 ![yolo_paper_output](https://user-images.githubusercontent.com/29446797/167315579-28ae63ce-3211-4a69-b909-5c026b1fbf80.gif) [Full-Res](https://github.com/hsilvaga/ComputerVisionProjects/blob/master/NumberDetection/data/yolo_paper_output.avi)  
 
 ## Noticeable Problems:
-&nbsp;&nbsp;1) False Positives
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;False positives are present in both methods. This maybe reduced by using more data in the not-a-number class and with deeper network architectures; since VGG only used 16 layers and YOLO-small was used.
-&nbsp;&nbsp;2) Augment Data Further
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Both methods fall short when the data is a 90-ish degree angle. Augmenting the data to be at 90-ish degrees can be tried out.
+&nbsp;&nbsp;1) False Positives  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;False positives are present in both methods. This maybe reduced by using more data in the not-a-number class and with deeper network architectures; since VGG only used 16 layers and YOLO-small was used.  
+&nbsp;&nbsp;2) Augment Data Further  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Both methods fall short when the data is a 90-ish degree angle. Augmenting the data to be at 90-ish degrees can be tried out.  
+
+## Next Steps:
+&nbsp;&nbsp;1) Train a larger full model and deploy on Jetson
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Pruning can be investigated to help with this.
