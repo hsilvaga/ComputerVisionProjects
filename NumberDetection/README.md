@@ -7,11 +7,10 @@
 &nbsp;&nbsp;2) Classification with Pytorch's VGG16 implemention with untrained weights and pre-trained weights  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The VGG16 network was trained with two methods 1) training the weights from scratch and 2) training from a baseline of pre-trained weights.  
 
-<img src="https://user-images.githubusercontent.com/29446797/167309158-949b24bc-2e22-47fc-a688-d06bbb262538.png"> <img src="https://user-images.githubusercontent.com/29446797/167309161-c2e9381e-4ef2-46fc-8ca0-6a3af97f615e.png">
-&nbsp;&nbsp;
-3) These graphs represent the accuracy at each epoch for the network trained from scratch (left) and the network trained with pre-trained weights (right).
+<img src="https://user-images.githubusercontent.com/29446797/167309158-949b24bc-2e22-47fc-a688-d06bbb262538.png"> <img src="https://user-images.githubusercontent.com/29446797/167309161-c2e9381e-4ef2-46fc-8ca0-6a3af97f615e.png">  
+&nbsp;&nbsp;3) These graphs represent the accuracy at each epoch for the network trained from scratch (left) and the network trained with pre-trained weights (right).
 
-
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/29446797/167310647-4d5a2f43-42e4-49ea-a100-8b9020bef618.gif)
 
 
 ## Method 2: Detection and Classification performed by YOLO (You Only Look Once)
