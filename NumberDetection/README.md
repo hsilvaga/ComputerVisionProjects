@@ -14,6 +14,8 @@
 
 
 ## Method 2: Detection and Classification performed by YOLO (You Only Look Once)
-&nbsp;&nbsp;1)
+&nbsp;&nbsp;1) Yolo is able to perform detection and classification simultaneously. In this case, Pytorch's Yolov5-small implementation with pre-trained weights was used. Even with these short videos, YOLO performed noticeably faster.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;NOTE: The bounding boxes from YOLO are not as "fitting" compared to method 1's detection boxes.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;NOTE: Detection is poor on small objects.  
 ![yolo_output](https://user-images.githubusercontent.com/29446797/167315576-e57daf80-8f8d-4c62-847a-fa2332b1a6a1.gif) [Full-Res](https://github.com/hsilvaga/ComputerVisionProjects/blob/master/NumberDetection/data/yolo_mile_output.avi)   
 ![yolo_paper_output](https://user-images.githubusercontent.com/29446797/167315579-28ae63ce-3211-4a69-b909-5c026b1fbf80.gif) [Full-Res](https://github.com/hsilvaga/ComputerVisionProjects/blob/master/NumberDetection/data/yolo_paper_output.avi)  
