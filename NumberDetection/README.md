@@ -11,9 +11,7 @@
 *image_caption*
 <img src="https://user-images.githubusercontent.com/29446797/167309161-c2e9381e-4ef2-46fc-8ca0-6a3af97f615e.png" alt>
 *image_caption1*
-<p>
-    <em>image_caption</em>
-</p>
+
 
 ## Method 2: Detection and Classification performed by YOLO (You Only Look Once)
 &nbsp;&nbsp;1)
