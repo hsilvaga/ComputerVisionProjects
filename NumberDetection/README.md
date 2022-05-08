@@ -27,5 +27,5 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Both methods fall short when the data is a 90-ish degree angle. Augmenting the data to be at 90-ish degrees can be tried out.  
 
 ## Next Steps:
-&nbsp;&nbsp;1) Train a larger full model and deploy on Jetson
+&nbsp;&nbsp;1) Train a larger full model and deploy on Jetson  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Pruning can be investigated to help with this.
