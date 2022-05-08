@@ -9,13 +9,9 @@
 
 <p><img src="https://user-images.githubusercontent.com/29446797/167309158-949b24bc-2e22-47fc-a688-d06bbb262538.png" alt="acc" title="title"/></p>
 
-
 <img src="https://user-images.githubusercontent.com/29446797/167309161-c2e9381e-4ef2-46fc-8ca0-6a3af97f615e.png"  alt="things">
 
 
-![acc_scratch](https://user-images.githubusercontent.com/29446797/167309661-00dd71ac-4fdf-4577-a140-132ff70e899c.png "image2")  
-
-![acc_pretrained](https://user-images.githubusercontent.com/29446797/167309648-5c02c433-e679-485e-9f9a-9ea509863b99.png "Image1")
 
 
 
