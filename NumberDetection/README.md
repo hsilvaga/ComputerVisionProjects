@@ -15,3 +15,5 @@
 
 ## Method 2: Detection and Classification performed by YOLO (You Only Look Once)
 &nbsp;&nbsp;1)
+![yolo_output](https://user-images.githubusercontent.com/29446797/167315576-e57daf80-8f8d-4c62-847a-fa2332b1a6a1.gif)
+![yolo_paper_output](https://user-images.githubusercontent.com/29446797/167315579-28ae63ce-3211-4a69-b909-5c026b1fbf80.gif)
