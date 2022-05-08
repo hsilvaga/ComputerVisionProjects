@@ -7,9 +7,12 @@
 &nbsp;&nbsp;2) Classification with Pytorch's VGG16 implemention with untrained weights and pre-trained weights  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The VGG16 network was trained with two methods 1) training the weights from scratch and 2) training from a baseline of pre-trained weights.  
 <img src="https://user-images.githubusercontent.com/29446797/167309158-949b24bc-2e22-47fc-a688-d06bbb262538.png" alt>
-<img src="https://user-images.githubusercontent.com/29446797/167309161-c2e9381e-4ef2-46fc-8ca0-6a3af97f615e.png" alt>  
-<em>image_caption</em>
 
+
+<p>
+    <img src="https://user-images.githubusercontent.com/29446797/167309161-c2e9381e-4ef2-46fc-8ca0-6a3af97f615e.png" alt>  
+    <em>image_caption</em>
+</p>
 
 ## Method 2: Detection and Classification performed by YOLO (You Only Look Once)
 &nbsp;&nbsp;1)
