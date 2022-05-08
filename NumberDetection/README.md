@@ -19,3 +19,9 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;NOTE: Detection is poor on small objects.  
 ![yolo_output](https://user-images.githubusercontent.com/29446797/167315576-e57daf80-8f8d-4c62-847a-fa2332b1a6a1.gif) [Full-Res](https://github.com/hsilvaga/ComputerVisionProjects/blob/master/NumberDetection/data/yolo_mile_output.avi)   
 ![yolo_paper_output](https://user-images.githubusercontent.com/29446797/167315579-28ae63ce-3211-4a69-b909-5c026b1fbf80.gif) [Full-Res](https://github.com/hsilvaga/ComputerVisionProjects/blob/master/NumberDetection/data/yolo_paper_output.avi)  
+
+## Noticeable Problems:
+&nbsp;&nbsp;1) False Positives
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;False positives are present in both methods. This maybe reduced by using more data in the not-a-number class and with deeper network architectures; since VGG only used 16 layers and YOLO-small was used.
+&nbsp;&nbsp;2) Augment Data Further
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Both methods fall short when the data is a 90-ish degree angle. Augmenting the data to be at 90-ish degrees can be tried out.
