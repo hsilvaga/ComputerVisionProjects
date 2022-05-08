@@ -1,4 +1,4 @@
-# Paper Implementation of Object Removal by Exemplar-Based Image Inpainting
+## Paper Implementation of Object Removal by Exemplar-Based Image Inpainting
 # Objective: Implement Region-Filling [Paper](https://www.irisa.fr/vista/Papers/2004_ip_criminisi.pdf) and Obtain Similar Results 
 
 # Walkthrough of Implemented Algorithm:
